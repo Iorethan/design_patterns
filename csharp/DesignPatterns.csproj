@@ -43,6 +43,10 @@
     <Compile Include="Singleton\Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Singleton\ThreadSafeSingleton.cs" />
+    <Compile Include="Strategy\ConcreteStrategies\BabylonianMethod.cs" />
+    <Compile Include="Strategy\ConcreteStrategies\DefaultMethod.cs" />
+    <Compile Include="Strategy\RootCalculatingStrategy.cs" />
+    <Compile Include="Strategy\RootCalculator.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
